@@ -15,7 +15,7 @@ public class WeightEntry {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
 	
-	@Column(nullable=true)
+	@Column(nullable=false)
 	private String date;
 	
 	@Column(nullable = false)
